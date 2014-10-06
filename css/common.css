@@ -1,0 +1,190 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+body {
+  font-family: 'Droid Serif';
+}
+h1, h2, h3 {
+  font-family: 'Yanone Kaffeesatz';
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+h2 {
+  margin-top: 0.5em;
+  padding-left: 0.2em;
+  border-left: solid 10px #ccc;
+  border-bottom: solid 1px #ccc;
+}
+.remark-slide-content h1 { font-size: 3em; text-align: center; }
+.remark-slide-content h2 { font-size: 1.5em; }
+.remark-slide-content h3 { font-size: 1.2em; }
+.footnote {
+  position: absolute;
+  bottom: 3em;
+}
+li p { line-height: 1.25em; }
+.red { color: #fa0000; }
+.large { font-size: 2em; }
+a, a > code {
+  color: rgb(249, 38, 114);
+  text-decoration: none;
+}
+code {
+  -moz-border-radius: 5px;
+  -web-border-radius: 5px;
+  background: #e7e8e2;
+  border-radius: 5px;
+}
+.remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+.pull-left {
+  float: left;
+  width: 47%;
+}
+.pull-right {
+  float: right;
+  width: 47%;
+}
+.pull-right ~ p {
+  clear: both;
+}
+#slideshow .slide .content code {
+  font-size: 0.8em;
+}
+#slideshow .slide .content pre code {
+  font-size: 0.9em;
+  padding: 15px;
+}
+.inverse {
+  background: #272822;
+  color: #777872;
+  text-shadow: 0 0 20px #333;
+}
+.inverse h1, .inverse h2 {
+  color: #f3f3f3;
+  line-height: 0.8em;
+}
+
+/* Slide-specific styling */
+#slide-inverse .footnote {
+  bottom: 12px;
+  left: 20px;
+}
+#slide-how .slides {
+  font-size: 0.9em;
+  position: absolute;
+  top:  151px;
+  right: 140px;
+}
+#slide-how .slides h3 {
+  margin-top: 0.2em;
+}
+#slide-how .slides .first, #slide-how .slides .second {
+  padding: 1px 20px;
+  height: 90px;
+  width: 120px;
+  -moz-box-shadow: 0 0 10px #777;
+  -webkit-box-shadow: 0 0 10px #777;
+  box-shadow: 0 0 10px #777;
+}
+#slide-how .slides .first {
+  background: #fff;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  z-index: 1;
+}
+#slide-how .slides .second {
+  position: relative;
+  background: #fff;
+  z-index: 0;
+}
+
+/* Column layout */
+.left-column {
+  float: left;
+}
+.right-column {
+  float: right;
+}
+
+.g1  { width:  5.25%; }
+.g2  { width: 11.50%; }
+.g3  { width: 17.75%; }
+.g4  { width: 24.00%; }
+.g5  { width: 30.25%; }
+.g6  { width: 36.50%; }
+.g7  { width: 42.75%; }
+.g8  { width: 49.00%; }
+.g9  { width: 55.25%; }
+.g10 { width: 61.50%; }
+.g11 { width: 67.75%; }
+.g12 { width: 74.00%; }
+.g13 { width: 80.25%; }
+.g14 { width: 86.50%; }
+.g15 { width: 92.75%; }
+.g16 { width: 100.0%; }
+
+.small {
+  font-size: 0.8em;
+}
+.big {
+  font-size: 1.2em;
+}
+.border {
+  border: 1px solid gray;
+  padding: 0.5em;
+}
+
+/* for sample.md */
+.hoge {
+  color: blue;
+  font-size: 2em;
+}
+
+/* for blockquote */
+blockquote:before{
+  content:"“";
+  font-size:400%;
+  color:#999;
+  position:absolute;
+  left:0;
+  top:0;
+}
+blockquote{
+  background-color: #eee;
+  padding:0.5em 0.5em 0.2em 2em;
+  margin: 0;
+  position:relative;
+}
+
+/* for list */
+ul, ol {
+}
+
+li {
+  padding-top: 0.5em;
+}
+
+/* for table */
+table {
+  margin: 1em 0;
+  border-collapse: collapse;
+  border-spacing: 0px;
+}
+
+th {
+  text-align: center !important;
+  color: #444;
+
+  padding: 0.5em 0.3em;
+  background-color: #ccc;
+  border: 1px solid #bbb;
+}
+
+td {
+  padding: 0.3em;
+  background-color: #fafafa;
+  border: 1px solid #ccc;
+}

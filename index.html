@@ -1,0 +1,20 @@
+<DOCTYPE html>
+<html>
+  <head>
+    <title>Presentation</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link href="css/common.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+    <script src="http://gnab.github.io/remark/downloads/remark-latest.min.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+      var query = window.location.search.substring(1);
+      var slideshow = remark.create({
+        sourceUrl: query ? "slides/" + query : "README.md",
+        highlightStyle: 'default',
+        highlightLanguage: 'sh'
+      });
+    </script>
+  </body>
+</html>
